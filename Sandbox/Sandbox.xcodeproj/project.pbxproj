@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -25,7 +25,7 @@
 		1F8F4E7424DCEE7400C5CB2A /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F8F4E7324DCEE7400C5CB2A /* ComplicationController.swift */; };
 		1F8F4E7624DCEE7500C5CB2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F8F4E7524DCEE7500C5CB2A /* Assets.xcassets */; };
 		1F8F4E7924DCEE7500C5CB2A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F8F4E7824DCEE7500C5CB2A /* Preview Assets.xcassets */; };
-		1F8F4E7E24DCEE7500C5CB2A /* SandboxWatch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 1F8F4E5D24DCEE6F00C5CB2A /* SandboxWatch.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		1F8F4E7E24DCEE7500C5CB2A /* SandboxWatch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 1F8F4E5D24DCEE6F00C5CB2A /* SandboxWatch.app */; platformFilter = ios; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -494,6 +494,7 @@
 		};
 		1F8F4E7D24DCEE7500C5CB2A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
+			platformFilter = ios;
 			target = 1F8F4E5C24DCEE6F00C5CB2A /* SandboxWatch */;
 			targetProxy = 1F8F4E7C24DCEE7500C5CB2A /* PBXContainerItemProxy */;
 		};
