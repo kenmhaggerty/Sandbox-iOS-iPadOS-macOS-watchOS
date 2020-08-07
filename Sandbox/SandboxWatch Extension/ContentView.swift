@@ -9,8 +9,15 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var lightsOn = false
+    
     var body: some View {
-        Text("Hello, World!").padding()
+        Toggle(toggleLabel(), isOn: $lightsOn)
+            .padding(.trailing, 3)
+    }
+    
+    func toggleLabel() -> String {
+        return lightsOn ? "Lights On" : "Lights Off"
     }
 }
 
